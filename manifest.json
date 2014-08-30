@@ -1,0 +1,16 @@
+{
+    "AppName": {
+        "en": "Remote"
+    },
+    "BundleIdentifier": "spotify-remote",
+    "BundleType": "Application",
+    "BundleVersion": "0.0.1",
+    "Dependencies": {
+        "api": "1.38.0",
+        "views": "1.18.1"
+    },
+    "SupportedLanguages": [
+        "en"
+    ],
+    "VendorIdentifier": "com.tomalexander"
+}
