@@ -3,10 +3,10 @@ var express = require('express'),
     http = require('http').Server(app),
     io = require('socket.io')(http);
 
-app.use('/assets', express.static('./server/assets'));
+app.use('/assets', express.static(__dirname + '/server/assets'));
 
 app.get('/', function (req, res) {
-    res.sendfile('./server/index.html');
+    res.sendfile(__dirname + '/index.html');
 });
 
 io.on('connection', function (socket) {
